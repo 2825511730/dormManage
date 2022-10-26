@@ -42,6 +42,7 @@ B/S架构的全称为Browser/Server，即浏览器/服务器结构。Browser指�
  - 第三层数据层：主要是进行数据持久化存储。
 
 ## 2、技术选型
+
 选择合适的技术，整个项目就已经成功了一半，经过对系统需求和系统自身特点的分析，加上现代B/S模式主流架构解决方案，对本系统技术选型如下：
 
 **数据表现层：** Html+JavaScript+CSS+VUE
@@ -53,6 +54,7 @@ B/S架构的全称为Browser/Server，即浏览器/服务器结构。Browser指�
 **开发工具：** Eclipse
 
 ## 3、用户分析
+
 本系统主要应用于高校宿舍管理，使用人群如下：
 
 - 系统管理员：管理整个系统的安全运行，各个功能使用。
@@ -60,6 +62,7 @@ B/S架构的全称为Browser/Server，即浏览器/服务器结构。Browser指�
 - 学生：查看浏览信息，提交任务
 
 ## 4、功能分析
+
 **系统管理员：**
 
  1. 添加、修改、删除公告信息
@@ -71,6 +74,7 @@ B/S架构的全称为Browser/Server，即浏览器/服务器结构。Browser指�
  7. 查看、修改个人信息
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926123800845.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70#pic_center)
+
 **宿舍管理员：**
 
  1. 查看公告
@@ -80,6 +84,7 @@ B/S架构的全称为Browser/Server，即浏览器/服务器结构。Browser指�
  5. 查看、修改个人信息
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926124203648.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70#pic_center)
+
 **学生：**
 
  1. 查看公告
@@ -93,6 +98,7 @@ B/S架构的全称为Browser/Server，即浏览器/服务器结构。Browser指�
 分析系统需求，数据库应有以下几张表：
 
 **t_admin:** 主要用于存储系统管理员数据
+
 | 字段名称 | 类型    | 是否主键 | 说明           |
 | -------- | ------- | -------- | -------------- |
 | adminId  | int     | 是       | 管理员Id，唯一 |
@@ -111,6 +117,7 @@ B/S架构的全称为Browser/Server，即浏览器/服务器结构。Browser指�
 | dormBuildDetail | varchar | 否       | 描述           |
 
 **t_dormmanager：** 主要存储宿舍管理员信息
+
 | 字段名称        | 类型    | 是否主键 | 说明                 |
 | --------------- | ------- | -------- | -------------------- |
 | dormManId       | varchar | 是       | 宿舍管理员Id，唯一   |
@@ -123,6 +130,7 @@ B/S架构的全称为Browser/Server，即浏览器/服务器结构。Browser指�
 | tel             | varchar | 否       | 电话                 |
 
 **t_notice:** 用于存储公告信息
+
 | 字段名称     | 类型    | 是否主键 | 说明         |
 | ------------ | ------- | -------- | ------------ |
 | noticeId     | int     | 是       | 公告Id，唯一 |
@@ -188,47 +196,60 @@ B/S架构的全称为Browser/Server，即浏览器/服务器结构。Browser指�
 根据第六步搭建完系统运行环境后，工程结构目录如下图所示
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926161618970.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70#pic_left)
+
 **对工程结构各个目录的解释：**
 
 ```java
 com.cya.controller
 ```
 controller包用于存放接收请求的类，充当前后端数据交互的“桥梁”
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020092616250568.png#pic_left)
 
 ```java
 com.cya.service
 ```
 service包是所有业务逻辑的接口
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926162803593.png#pic_left)
 
 ```java
 com.cya.service.impl
 ```
 service.impl包用于存放service接口的所有实现类
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926162956990.png#pic_left)
 
 ```java
 com.cya.mapper
 ```
 mapper包用于存放对数据库操纵的接口和对应的xml实现
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926163235344.png#pic_left)
 
 ```java
 com.cya.entity
 ```
 entity包用于存放项目中用到的所有实体类，它与数据库中的表相对应
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926163450155.png#pic_left)
+
 resources文件下存放SSM框架整合的必要配置文件，详情请看[《手把手教你搭建SSM框架（Eclipse版）》](https://blog.csdn.net/qq_40625778/article/details/108738764)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020092616374144.png#pic_left)
+
 dorm是存放所有model层文件的父级文件夹，其中admin，dormManager、student三个子文件夹存放系统管理员、宿舍管理员、学生三个角色对应的HTML文件。
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020092616420276.png#pic_left)
 
 ## 8、功能实现及展示
 由于系统包含功能众多，在此无法一一列举，所以挑选几个代表做展示，如需获取完整源码请在公众号【IT学长】回复“宿舍管理系统”。
 
 #### 8.1 登录功能实现
-项目启动成功后，在浏览器地址栏输入：http://localhost:8080/dormManage/ 进入用户登录界面如下图所示：
+
+项目启动成功后，在浏览器地址栏输入：http://localhost:8080/dormManage/ 进入用户登录界面
+如下图所示：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926165247339.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70#pic_left)
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926165939202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70#pic_left)
@@ -310,9 +331,11 @@ public class LoginController {
 在系统管理员端，有发布公告的权限，系统管理员点击添加公告按钮，输入相关信息后进行有效性校验，校验成功及代表公告发布成功。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926170458326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70#pic_left)
+
 成功发布公告后，会出现在宿舍管理员端和学生端界面，效果图如下：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020092617100845.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70#pic_left)
+
 公告模块主要代码以mapper层实现为例：
 
 ```xml
@@ -350,6 +373,7 @@ public class LoginController {
 宿舍管理员根据自己所管理楼，对住在管理范围内的学生进行考勤，并添加考勤记录，学生端也会显示考勤信息。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200926171810741.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70#pic_center)
+
 主要实现代码如下：
 
 ```java
@@ -425,6 +449,7 @@ public class LoginController {
 ## 9、源码下载
 
 <font color='red'>**微信搜索公众号【IT学长】，回复关键词“宿舍管理系统”下载完整源码**</font>
+
 ## 10、相关说明
 
  1. 制作不易，记得点赞+收藏+转发
