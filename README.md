@@ -13,7 +13,7 @@
 **演示地址：[宿舍管理系统演示地址，点我查看](http://dorm.cyouagain.cn/)**
 
 
-<font color='red'>**源码下载：微信搜索公众号【IT学长】，回复关键词“宿舍管理系统”下载完整源码**</font>
+<font color='red'>**源码下载：`微信搜索公众号【IT学长】，回复关键词“宿舍管理系统”下载完整源码`**</font>
 
 <font color='red'>**下载本系统源码后如何运行？请看运行教程：[《基于SSM的学生宿舍管理系统运行教程，可提供技术支持》](https://mp.weixin.qq.com/s/TVdI3BSeBYy75AURjp7j8Q)**</font>
 
