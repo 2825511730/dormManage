@@ -1,21 +1,13 @@
-> **作者：** IT学长，从事软件开发  努力在IT搬砖路上的技术小白
-> 
-> **公众号：** 【**[<font color="#5094d5" ><u>IT学长</u></font>](https://mp.weixin.qq.com/mp/homepage?__biz=MzkyMDAxNTQ4NQ==&hid=5&sn=097a81acff1e1971604ea1b571c13b9e&scene=18)**】几十套毕业设计、课程设计项目源码，200多道C语言经典编程题，上百G Java面试资料，900多套PPT模板，400多例HTML5网页模板。公众号回复 【<font color="#e33e33" >**粉丝**</font>】进博主技术群，与大佬交流，**领取干货学习资料**
-> 
-> **关于转载**：欢迎转载博主文章，转载时表明出处
-> 
-> **求赞环节**：创作不易，记得 <font color="#e33e33" >点赞</font>+<font color="#e33e33" >评论</font>+<font color="#e33e33" >转发</font> 谢谢你一路支持
 
+计算机类毕设源码大全：[十几套计算机专业毕业设计文档及源码分享](https://mp.weixin.qq.com/mp/homepage?__biz=MzkyMDAxNTQ4NQ==&hid=5&sn=097a81acff1e1971604ea1b571c13b9e&scene=18) 
 
+演示地址：[宿舍管理系统演示地址，点我查看](http://dorm.cyouagain.cn/)
 
-**计算机类毕设源码大全：[十几套计算机专业毕业设计文档及源码分享](https://mp.weixin.qq.com/mp/homepage?__biz=MzkyMDAxNTQ4NQ==&hid=5&sn=097a81acff1e1971604ea1b571c13b9e&scene=18)** 
+开发文档：[《基于SSM的学生宿舍管理系统设计与实现（附源码下载地址）》](https://mp.weixin.qq.com/s/BPXYgGVJel4eEHH29byoiw)
 
-**演示地址：[宿舍管理系统演示地址，点我查看](http://dorm.cyouagain.cn/)**
+运行教程：[《基于SSM的学生宿舍管理系统运行教程》](https://mp.weixin.qq.com/s/TVdI3BSeBYy75AURjp7j8Q)
 
-
-<font color='red'>**源码下载：`微信搜索公众号【IT学长】，回复关键词“宿舍管理系统”下载完整源码`**</font>
-
-<font color='red'>**下载本系统源码后如何运行？请看运行教程：[《基于SSM的学生宿舍管理系统运行教程，可提供技术支持》](https://mp.weixin.qq.com/s/TVdI3BSeBYy75AURjp7j8Q)**</font>
+源码下载：`微信搜索公众号【IT学长】，回复关键词“宿舍管理系统”下载完整源码`
 
 ![微信扫码关注这个有温度的程序猿](https://img-blog.csdnimg.cn/c5b40e17bc614f5d99a5d6e179a0447b.png )
 
