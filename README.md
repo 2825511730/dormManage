@@ -8,6 +8,9 @@
 运行教程：[《基于SSM的学生宿舍管理系统运行教程》](https://mp.weixin.qq.com/s/TVdI3BSeBYy75AURjp7j8Q)
 
 
+演示截图：[《基于SSM的学生宿舍管理系统演示截图》](https://blog.csdn.net/m0_73470247/article/details/126734888)
+
+
 源码下载：`微信搜索公众号【IT学长】，回复关键词“宿舍管理系统”下载完整源码`
 
 ![微信扫码关注这个有温度的程序猿](https://img-blog.csdnimg.cn/c5b40e17bc614f5d99a5d6e179a0447b.png )
